@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>
+        airbin.com
+    </title>
+    </head>
+    <body>
+       <nav>
+        <div>
+            <button>Anywhere</button>
+            <button>Anyweek</button>
+            <button>Addguests</button>
+        </div>
+       </nav>
+       <hr>
+       <section id="images">
+        <button><img src="https://a0.muscache.com/pictures/6ad4bd95-f086-437d-97e3-14d12155ddfe.jpg" >Countryside</button>
+        <button><img src="https://a0.muscache.com/pictures/ee9e2a40-ffac-4db9-9080-b351efc3cfc4.jpg">Tropical</button>
+        <button><img src="https://a0.muscache.com/pictures/50861fca-582c-4bcc-89d3-857fb7ca6528.jpg">Design</button>
+        <button><img src="https://a0.muscache.com/pictures/5cdb8451-8f75-4c5f-a17d-33ee228e3db8.jpg">Wind mills</button>
+        <button><img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg">OMG!</button>
+        <button><img src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg" >Beachfont</button>
+        <button><img src="https://a0.muscache.com/pictures/10ce1091-c854-40f3-a2fb-defc2995bcaf.jpg" >Beaches</button>
+        <button><img src="https://a0.muscache.com/pictures/35919456-df89-4024-ad50-5fcb7a472df9.jpg" >Home</button>
+        <button><img src="https://a0.muscache.com/pictures/8e507f16-4943-4be9-b707-59bd38d56309.jpg" >Island</button>
+        <button><img src="https://a0.muscache.com/pictures/c0a24c04-ce1f-490c-833f-987613930eca.jpg" >Mountain</button>
+        <button><img src="https://a0.muscache.com/pictures/3b1eb541-46d9-4bef-abc4-c37d77e3c21b.jpg" >Beach</button>
+        <button><img src="https://a0.muscache.com/pictures/827c5623-d182-474a-823c-db3894490896.jpg ">Ryo kams</button>
+        <button><img src='https://a0.muscache.com/pictures/ddd13204-a5ae-4532-898c-2e595b1bb15f.jpg' >Chef's kichen</button>
+        <button><img src='https://a0.muscache.com/pictures/48b55f09-f51c-4ff5-b2c6-7f6bd4d1e049.jpg' >Minus</button>
+        <button><img src="https://a0.muscache.com/pictures/757deeaa-c78f-488f-992b-d3b1ecc06fc9.jpg" >Sherphad shuts</button>
+       </section>
+       <section class="places">
+        <div><img src='https://a0.muscache.com/im/pictures/miso/Hosting-589090188186843973/original/e9d4b924-aa86-4935-ae7a-c5cdf48d9b9c.jpeg?im_w=720'> <p>Satna,Patna,India</p><p>15-20 Oct</p><p>5,000₹/day</p></div>
+        <div><img src='https://a0.muscache.com/im/pictures/fa3acc02-a684-4e2b-ad3c-d732b5bdc7d9.jpg?im_w=720'><p>Gatna,Hyd,India</p><p>12-17 Oct</p><p>3,000₹/day</p></div>
+        <div><img src='https://a0.muscache.com/im/pictures/583b7fd8-7f00-4af1-a086-be708164d701.jpg?im_w=720'><p>Guntur,A.P</p><p>12-19 Nov</p><p>2,000₹/day</p></div>
+        <div><img src='https://a0.muscache.com/im/pictures/miso/Hosting-45759266/original/a18eadab-a95c-4281-9d37-346631c6af40.jpeg?im_w=720'><p>Yamen,Indonasia</p><p>25-30 Oct</p><p>1,000₹/day</p></div>
+    </section>
+        <section class="places">
+        <div><img src='https://a0.muscache.com/im/pictures/miso/Hosting-589090188186843973/original/e9d4b924-aa86-4935-ae7a-c5cdf48d9b9c.jpeg?im_w=720'> <p>Satna,Patna,India</p><p>15-20 Oct</p><p>5,000₹/day</p></div>
+        <div><img src='https://a0.muscache.com/im/pictures/fa3acc02-a684-4e2b-ad3c-d732b5bdc7d9.jpg?im_w=720'><p>Gatna,Hyd,India</p><p>12-17 Oct</p><p>3,000₹/day</p></div>
+        <div><img src='https://a0.muscache.com/im/pictures/583b7fd8-7f00-4af1-a086-be708164d701.jpg?im_w=720'><p>Guntur,A.P</p><p>12-19 Nov</p><p>2,000₹/day</p></div>
+        <div><img src='https://a0.muscache.com/im/pictures/miso/Hosting-45759266/original/a18eadab-a95c-4281-9d37-346631c6af40.jpeg?im_w=720'><p>Yamen,Indonasia</p><p>25-30 Oct</p><p>1,000₹/day</p></div>
+       </section>
+       <!--last section!-->
+       <div id="last">
+        <div>
+            &#x00A9 2022 Airbnb Inc,<a>·Privacy </a>
+            <a>·Terms</a>
+            <a>·Sitemap</a>
+            <a>·Company details</a>
+            <a>·Destinations</a>
+        </div>
+        <div>
+           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Globe_icon.svg/2048px-Globe_icon.svg.png"  width="20px" height="20px">
+            <a >English(In)   </a>
+            <a>₹ INR</a>
+            <a>Support & resources</a>
+        </div>
+       </div>
+       <button id="show">Show map</button>
+    </div>
+    </body>
+<style>
+        nav{    
+            width:20%;
+            height:3rem;
+     margin: 2% auto;
+     border:2px solid #003049;
+     border-radius: 2em;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;  
+}
+nav div{
+    display: flex;
+}
+nav div button{
+    background-color:white;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+   font-weight: 500;
+    font-size: 0.9em;
+    border-right-color:rgb(128, 128, 128) ;
+    border-left: 1em;
+}
+#images{
+    margin: 2% auto;
+    width:90%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rbg(255,255,255);
+}
+#images button img{
+    width:50%;
+    height:50%;
+   display: block;
+   margin: 0 auto;
+   background-color: #ffffff;
+   padding-bottom: 15%;
+}
+#images button {
+    border:none;
+    background-color: white;
+    padding-bottom: 3%;
+    opacity: 0.67;
+    padding-bottom: 0.4%;
+   
+}
+#images button:hover{   
+    opacity: 1;
+    border-bottom: 0.17rem solid ;
+    border-bottom-color: rgb(165, 160, 160);
+}
+.places{
+    margin: 1em auto;
+    width:95%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.places div{
+   width:95%;
+   display:flex;
+   flex-direction: column;
+   justify-content: flex-start;
+}
+.places  p{
+    margin:0.2em;
+}
+.places p:nth-of-type(1){
+    font-weight: 600;
+}
+.places div img{
+    margin: auto;
+    width:95%;
+    height:auto;
+    display: block;
+    border: 0.2rem solid rgb(252, 248, 248);
+    border-radius: 15%;
+}
+#show{
+    position:fixed;
+   background-color: black;
+   color: #ffffff;
+   text-align: center;
+   width: 10em;
+   height: 3em;
+padding:0.5em;
+ font-size: 110%;
+  position: fixed;
+  border-radius: 3em;
+  top: 85%;
+  left: 45%;
+}
+#show:hover{
+    transform: scale(1.07,1.07);
+    font-weight: 700;
+}
+#last{
+  border-top: 0.56%;
+  border-top-color: #003049;
+  border-top-style: solid;
+  font-size: 120%;
+  padding: 0.4em;
+  display:flex;
+  position:fixed;
+  top:95%;
+  width:99%;
+  font-weight: 400;
+  background-color:white;
+  justify-content: space-between;
+}
+
+#last div:nth-of-type(2){
+    display: flex;
+    width:25%;
+   padding-left: 0.5em;
+   justify-content: space-between;
+}
+#last div:nth-of-type(1) img{
+    padding: 0.1em;
+
+}
+a:hover{
+text-decoration: underline;
+}
+</style>
+</html>
