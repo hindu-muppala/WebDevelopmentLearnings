@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div id="box">
+        <div class="boxin">
+            <img src="C:\Users\HP\Pictures\Screenshots\icon1.png">
+            PERSONAL
+            <div>
+                <label>COUSTOM DESIGN</label>
+                <label>SLEEPS AFTER 30 MINS OF INACTIVITY</label>
+                <div><label>FREE</label>
+                    <button>SIGN UP</button></div>
+            </div>
+        </div>
+        <div class="boxin">
+            <img src="C:\Users\HP\Pictures\Screenshots\icon2.png">
+            SMALL TEAM
+            <div>
+                <label>NEVER SLEEPS</label>
+                <label>MULTIPLE WORKERS FOR MORE POWERFUL APPS</label>
+                <div><label>700₹</label>
+                    <button>FREE TRIAL</button></div>
+            </div>
+        </div>
+        <div class="boxin">
+            <img src="C:\Users\HP\Pictures\Screenshots\icon3.png">
+            ENTERPISE
+            <div>
+                <label>DEDICATED</label>
+                <label>SIMPLE HORIZONTAL SCALABLE</label>
+                <div>
+                    <label>1400₹</label>
+                    <button>FREE TRIAL</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<style>
+    body {
+        background-color: rgb(58, 41, 82);
+        color: rgb(58, 41, 82);
+    }
+
+    #box {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        justify-content: space-between;
+        background-color: white;
+        border: 0.5% solid white;
+        border-radius: 0.5em;
+    }
+
+    .boxin {
+       
+        font-size: 0.7em;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        font-weight: 600;
+        height:auto;
+        width:33.3%;
+       border-right: 0.15em solid rgb(255, 187, 0);
+    }
+    .boxin:nth-of-type(3){
+        border:none;
+    }
+
+    .boxin img {
+        width: 80%;
+        height: auto;
+        margin-bottom: 10%;
+    }
+    .boxin div{
+    display:flex;
+       margin-top: 10%;
+       flex-direction: column;
+       justify-content: space-between;
+       align-items: center;
+       width:70%
+    }
+    .boxin div label {
+        margin:auto;
+        padding: 1em;
+        border-top: 0.2em solid rgb(255, 187, 0);
+        font-weight: 400;
+        font-size: 0.8em;
+        text-align: center;
+        width:87%;
+    }
+    .boxin div div{
+        margin:auto;
+        display:flex;
+       width:99%;
+        flex-direction: column;
+        align-items: center;
+        font-size: 2em;
+    }
+    button{
+        background-color: white;
+        color: rgb(58, 41, 82);
+        border-radius: 1em;
+        border: 10% solid rgb(58, 41, 82);
+        padding: 0.7em;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 40%;
+        cursor: pointer;
+    }
+    button:hover{
+       transform: scale(1.05,1.05);
+    }
+    @media screen and (max-width: 725px ){
+        #box{
+            flex-direction: column;
+            background-color: aqua;
+        }
+        .boxin{
+            width: 90%;
+            border: none;
+            margin:0 auto;
+        }
+        #box .boxin:nth-of-type(2) button{
+            background-color: aqua;
+        }
+    }
+    #box .boxin:nth-of-type(2) button{
+        background-color: rgb(58, 41, 82);
+        font-weight: 600;
+        font-size: 0.7em;
+        color: white;
+    }
+</style>
+</html>
