@@ -1,2 +1,2 @@
 # web-indhu
-My web development
+This repo consists all my web development projects.
