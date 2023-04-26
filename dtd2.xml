@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE EmployeeInfo[
+<!ELEMENT EmployeeInfo ((EmployeeElement)*)>
+<!ELEMENT EmployeeElement (Name,Department,Telephone,Email,EmployeeNumber)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Department (#PCDATA)>
+
+<!ELEMENT Telephone (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT EmployeeNumber (#PCDATA)>
+<!ATTLIST EmployeeNumber Data CDATA #REQUIRED>
+]
+>
+<EmployeeInfo>
+<EmployeeElement>
+<Name>Hindu
+</Name>
+<Department>CSE
+</Department>
+<Telephone>899
+</Telephone>
+<Email>indhu@gmail.com</Email>
+<EmployeeNumber Data="78"></EmployeeNumber>
+</EmployeeElement>
+</EmployeeInfo>
